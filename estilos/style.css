@@ -30,7 +30,7 @@ body{
 }
 
 main{
-    width: 50vw;
+    width: 335px;
     box-shadow: 3px 6px 15px 4px rgba(0, 0, 0, 0.548);
     border-radius: 20px;
 }
@@ -39,6 +39,7 @@ input{
     height: 20px;
     padding: 5px;
     border: 1px solid #a52a2a;
+   
 }
 
 span{
@@ -63,7 +64,7 @@ main#conteudo{
 article#foto{
     height: 200px;
     background-image: url(../imagens/pexels-agk42-2816904.jpg);
-    background-position: left center;
+    background-position: center center;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
