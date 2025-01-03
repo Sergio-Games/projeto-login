@@ -31,19 +31,22 @@ body{
 
 main{
     width: 50vw;
+    box-shadow: 3px 6px 15px 4px rgba(0, 0, 0, 0.548);
+    border-radius: 20px;
 }
 
 input{
     height: 20px;
     padding: 5px;
     border: 1px solid #a52a2a;
-    
 }
 
 span{
     color: white;
     margin: auto;
 }
+
+
 
 body#container{
     position: relative;
@@ -58,7 +61,7 @@ main#conteudo{
 }
 
 article#foto{
-    height: 250px;
+    height: 200px;
     background-image: url(../imagens/pexels-agk42-2816904.jpg);
     background-position: left center;
     border-top-left-radius: 20px;
@@ -67,7 +70,7 @@ article#foto{
 
 article#login{
     background-color: white;
-    height: 450px;
+    height: 400px;
     padding: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -75,7 +78,9 @@ article#login{
 
 article#login > h1{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    font-variant-caps: all-small-caps;
+    font-size: 3em;
 }
 
 article#login > p {
@@ -105,3 +110,44 @@ div#container2{
     padding: 3px;
     border-radius: 7px;
 }
+
+input#entrar{
+    width: 284px;
+    height: 40px;
+    border: 3px solid #db7e40;
+    color: white;
+    background-color: #db7e40;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant-caps: all-small-caps;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.308);
+}
+
+input#entrar:hover{
+    cursor: pointer;
+    background-color: #ff944c;
+    border-color: #ff944c;
+}
+
+p#esenha{
+    text-align: center;
+    margin: auto;
+    margin-top: 6px;
+    color: black;
+    font-size: 12px;
+    
+}
+
+p#esenha:hover{
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
