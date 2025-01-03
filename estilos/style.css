@@ -49,11 +49,14 @@ span{
 
 
 
+
 body#container{
     position: relative;
+    
 }
 
 main#conteudo{
+    display: block;
     position: absolute;
     left: 50%;
     top: 50vh;
@@ -61,20 +64,23 @@ main#conteudo{
     transform: translate(-50%, -50%);
 }
 
-article#foto{
+article.foto{
     height: 200px;
     background-image: url(../imagens/pexels-agk42-2816904.jpg);
     background-position: center center;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+   
 }
 
 article#login{
+    
     background-color: white;
     height: 400px;
     padding: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    
 }
 
 article#login > h1{
@@ -150,5 +156,9 @@ a{
 a:hover{
     text-decoration: underline;
     color: blue;
+}
+
+main#conteudo2{
+   display: none;
 }
 

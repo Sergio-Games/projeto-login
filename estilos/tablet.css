@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/*tela para tablet*/
+
+:root {
+    --cor2: #008b8b;
+    --cor3: #2f4f4f;
+    --cor4: #696969;
+    --cor5: #a52a2a;
+    --cor6: #d2b48c;
+    --cor7: #f0fff0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+body{   
+    background-image: linear-gradient(to right, #a52a2a, #d2b48c, #008b8b );
+}
+
+img#back{
+    width: 400px;
+}
+
+section#principal{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: fit-content;
+    height: 500px;
+}
+
+main#conteudo{
+    display: none;
+}
+
+main#conteudo2{
+    display: block;
+
+}
