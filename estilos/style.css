@@ -26,7 +26,7 @@ pc = min 992px
 }
 
 body{
-    background-color: #008b8b;
+    background-color: #822CF8;
 }
 
 main{
@@ -159,6 +159,7 @@ a:hover{
 }
 
 main#conteudo2{
-   display: none;
-}
-
+    display: none;
+ }
+ 
+ 
