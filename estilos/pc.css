@@ -5,6 +5,11 @@
  #9fa4a9 21%,
  #7b7b7b 100%,
  #3e3f40 35%
+
+
+   #05ffff 21%,
+        #2f4f4f 100%,
+        #e03c3c 25%
 */
 
 :root {
@@ -82,9 +87,8 @@ section#principal{
     background-color: white;
     width: fit-content;
     height: 430px;
-    min-width: 70vw;
-    max-width: 75vw;
-    box-shadow: 20px 3px 20px 0px #00acac69;;
+    width: 70vw;
+    box-shadow: 20px 3px 20px 0px #ffffff3a;;
     border-radius: 20px;
 }
 
@@ -92,7 +96,7 @@ article#foto2{
     background-image: url(../imagens/pexels-agk42-2816904.jpg);
     background-position: center center;
     background-size: cover;
-    width: 60vw;
+    width: 80vw;
     height: 430px;
     border-radius: 20px;
     border-top-left-radius: 0px;
