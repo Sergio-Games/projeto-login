@@ -71,6 +71,7 @@ article.foto{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 article#login{
@@ -81,6 +82,7 @@ article#login{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
     
 }
 
@@ -165,5 +167,6 @@ main#conteudo2{
  
  section{
     transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
  }
  
