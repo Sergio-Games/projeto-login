@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
-/*tela para tablet*/
+/*tela para tablet
+
+ #9fa4a9 21%,
+ #7b7b7b 100%,
+ #3e3f40 35%
+*/
 
 :root {
     --cor2: #008b8b;
@@ -16,7 +21,6 @@
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
     
-
 }
 
 
@@ -29,7 +33,6 @@ body{
         #05ffff 21%,
         #2f4f4f 100%,
         #e03c3c 25%
-        
         )
 }
 
@@ -42,7 +45,6 @@ span{
 img{
     vertical-align: middle;
     margin: auto;
-    width: 2vw;
 }
 
 a{
@@ -53,50 +55,56 @@ a{
 }
 
 h1{
-    margin-bottom: 7px;
+    margin-bottom: 5px;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3.4em;
     font-variant-caps: all-small-caps;
 }
 
 p{
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 2em;
     text-indent: 15px;
 }
 
 
 input{
-    width: 45vw;
+    width: 20vw;
+    border-radius: 7px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 section#principal{
     display: flex;
     align-items: center;
+    flex-direction: row-reverse;
     background-color: white;
     width: fit-content;
-    height: 330px;
-    width: 90vw;
-    box-shadow: 0px 11px 20px 2px #00000062;;
+    height: 430px;
+    min-width: 70vw;
+    max-width: 75vw;
+    box-shadow: 20px 3px 20px 0px #00acac69;;
     border-radius: 20px;
 }
 
 article#foto2{
     background-image: url(../imagens/pexels-agk42-2816904.jpg);
-    background-position: left center;
-    background-size: 80vw;
-    width: 600px;
-    height: 330px;
+    background-position: center center;
+    background-size: cover;
+    width: 60vw;
+    height: 430px;
     border-radius: 20px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
    
-    box-shadow: inset -10px 1px 18px 0px rgb(255 255 255 / 45%);
+    box-shadow: inset 10px 1px 18px 0px rgb(255 255 255 / 45%);
     padding-right: 7px;
 }
 
 article#login2{
     padding: 20px;
+    max-width: 800px;
 }
 
 main#conteudo{
@@ -123,26 +131,29 @@ div#container3{
     background-color: #a52a2a;
     width: fit-content;
     height: fit-content;
-    margin-top: 10px;
     padding: 4px;
     border-radius: 7px;
+    margin: auto;
+    margin-top: 40px;
 }
 
 div#container4{
     background-color: #a52a2a;
     width: fit-content;
     height: fit-content;
-    margin-top: 10px;
     padding: 4px;
     border-radius: 7px;
+    margin: auto;
+    margin-top: 20px;
 }
 
 div#entrar-alinhado{
-    margin-top: 15px;
+    margin-top: 45px;
     text-align: center;
 }
 
 input#entrar{
     margin-left: 20px;
     margin: auto;
+    width: 24vw;
 }
