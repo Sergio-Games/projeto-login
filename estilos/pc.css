@@ -90,6 +90,8 @@ section#principal{
     width: 70vw;
     box-shadow: 20px 3px 20px 0px #ffffff3a;;
     border-radius: 20px;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 article#foto2{
@@ -104,11 +106,15 @@ article#foto2{
    
     box-shadow: inset 10px 1px 18px 0px rgb(255 255 255 / 45%);
     padding-right: 7px;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 article#login2{
     padding: 20px;
     max-width: 800px;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 main#conteudo{
@@ -152,7 +158,7 @@ div#container4{
 }
 
 div#entrar-alinhado{
-    margin-top: 45px;
+    margin-top: 25px;
     text-align: center;
 }
 

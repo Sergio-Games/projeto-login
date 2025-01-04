@@ -70,7 +70,7 @@ article.foto{
     background-position: center center;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-   
+    transition: width 0.3s, height 0.3s;
 }
 
 article#login{
@@ -80,6 +80,7 @@ article#login{
     padding: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    transition: width 0.3s, height 0.3s;
     
 }
 
@@ -162,4 +163,7 @@ main#conteudo2{
     display: none;
  }
  
+ section{
+    transition: width 0.3s, height 0.3s;
+ }
  

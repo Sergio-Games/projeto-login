@@ -66,7 +66,7 @@ p{
 
 
 input{
-    width: 45vw;
+    width: 40vw;
 }
 
 section#principal{
@@ -78,6 +78,9 @@ section#principal{
     width: 90vw;
     box-shadow: 0px 11px 20px 2px #00000062;;
     border-radius: 20px;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+    
 }
 
 article#foto2{
@@ -92,10 +95,14 @@ article#foto2{
    
     box-shadow: inset -10px 1px 18px 0px rgb(255 255 255 / 45%);
     padding-right: 7px;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 article#login2{
     padding: 20px;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 main#conteudo{
